@@ -1,6 +1,6 @@
 # etf_analysis
 
-This file analyzes a hypothetical etf portfolio consisting of 4 stocks using SQL, Python, and the Voila library. The data for each stock is contained in an accompanying .db file.
+This file analyzes a hypothetical etf portfolio consisting of 4 stocks using SQL and Python. The data for each stock is contained in an accompanying .db file.
 
 It first queries the .db file using SQL to pull all data on PYPL and chart its daily returns:
 
