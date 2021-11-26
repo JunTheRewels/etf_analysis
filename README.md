@@ -17,7 +17,3 @@ Next it optimizes the previous query by selecting only instances of "close" grea
 Then the report analyzes the etf portfolio as a whole by using a SQL inner join to merge each of the 4 tables on the date column. The aggregated data is then used to provide the daily, annualized, and cumulative returns, respectively. It then plots the cumulative returns of the portfolio:
 
 ![ETF Cumulative Returns](etf_analyzer_files/images/4.PNG)
-
-Finally this file is used to generate a webpage using voila:
-
-![Voila Web File](etf_analyzer_files/images/etf_analyzer_webpage.gif)
